@@ -1,0 +1,64 @@
+.pre-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: hsl(273, 82%, 47%);
+  width: 1100px;
+}
+
+.container-inside-container {
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  margin: 80px 150px;
+  display: flex;
+}
+
+.q1-container {
+  display: flex;
+  justify-content: space-between;
+}
+.q2-container {
+  display: flex;
+  justify-content: space-between;
+}
+.q3-container {
+  display: flex;
+  justify-content: space-between;
+}
+.q4-container {
+  display: flex;
+  justify-content: space-between;
+}
+.q5-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ANS {
+  display: none;
+}
+
+.btn-up {
+  display: none;
+}
+
+.btn-down {
+  display: none;
+}
+
+.teacher-image {
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  right: 35px;
+}
+
+.dice {
+  position: absolute;
+  left: 274px;
+  top: 220px;
+}
